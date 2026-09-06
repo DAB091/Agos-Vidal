@@ -45,8 +45,9 @@ const WORDS = [
   { id: 4, word: 'QUESO', image: '/images/words/queso.png', articulation: [
     { unit: 'K/C/Q', letters: 'QU' }, { unit: 'E', letters: 'E' }, { unit: 'S', letters: 'S' }, { unit: 'O', letters: 'O' },
   ]},
-  { id: 5, word: 'CHICO', image: '/images/words/chico.png', articulation: [
-    { unit: 'CH', letters: 'CH' }, { unit: 'I', letters: 'I' }, { unit: 'K/C/Q', letters: 'C' }, { unit: 'O', letters: 'O' },
+  { id: 5, word: 'CHUPETE', image: '/images/words/chupete.png', articulation: [
+    { unit: 'CH', letters: 'CH' }, { unit: 'U', letters: 'U' }, { unit: 'P', letters: 'P' },
+    { unit: 'E', letters: 'E' }, { unit: 'T', letters: 'T' }, { unit: 'E', letters: 'E' },
   ]},
   { id: 6, word: 'CHOCOLATE', image: '/images/words/chocolate.png', articulation: [
     { unit: 'CH', letters: 'CH' }, { unit: 'O', letters: 'O' }, { unit: 'K/C/Q', letters: 'C' }, { unit: 'O', letters: 'O' },
