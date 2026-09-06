@@ -67,14 +67,16 @@ const WORDS = [
   { id: 11, word: 'DADO', image: '/images/words/dado.png', articulation: [
     { unit: 'D', letters: 'D' }, { unit: 'A', letters: 'A' }, { unit: 'D', letters: 'D' }, { unit: 'O', letters: 'O' },
   ]},
-  { id: 12, word: 'DEDO', image: '/images/words/dedo.png', articulation: [
-    { unit: 'D', letters: 'D' }, { unit: 'E', letters: 'E' }, { unit: 'D', letters: 'D' }, { unit: 'O', letters: 'O' },
+  { id: 12, word: 'DINOSAURIO', image: '/images/words/dinosaurio.png', articulation: [
+    { unit: 'D', letters: 'D' }, { unit: 'I', letters: 'I' }, { unit: 'N', letters: 'N' }, { unit: 'O', letters: 'O' },
+    { unit: 'S', letters: 'S' }, { unit: 'A', letters: 'A' }, { unit: 'U', letters: 'U' }, { unit: 'R', letters: 'R' },
+    { unit: 'I', letters: 'I' }, { unit: 'O', letters: 'O' },
   ]},
-  { id: 13, word: 'FOTO', image: '/images/words/foto.png', articulation: [
-    { unit: 'F', letters: 'F' }, { unit: 'O', letters: 'O' }, { unit: 'T', letters: 'T' }, { unit: 'O', letters: 'O' },
+  { id: 13, word: 'FOCA', image: '/images/words/foca.png', articulation: [
+    { unit: 'F', letters: 'F' }, { unit: 'O', letters: 'O' }, { unit: 'K/C/Q', letters: 'C' }, { unit: 'A', letters: 'A' },
   ]},
-  { id: 14, word: 'FARO', image: '/images/words/faro.png', articulation: [
-    { unit: 'F', letters: 'F' }, { unit: 'A', letters: 'A' }, { unit: 'R', letters: 'R' }, { unit: 'O', letters: 'O' },
+  { id: 14, word: 'FUEGO', image: '/images/words/fuego.png', articulation: [
+    { unit: 'F', letters: 'F' }, { unit: 'U', letters: 'U' }, { unit: 'E', letters: 'E' }, { unit: 'G', letters: 'G' }, { unit: 'O', letters: 'O' },
   ]},
   { id: 15, word: 'GALLETA', image: '/images/words/galleta.png', articulation: [
     { unit: 'G', letters: 'G' }, { unit: 'A', letters: 'A' }, { unit: 'LL', letters: 'LL' }, { unit: 'E', letters: 'E' },
@@ -106,8 +108,8 @@ const WORDS = [
   { id: 23, word: 'MANO', image: '/images/words/mano.png', articulation: [
     { unit: 'M', letters: 'M' }, { unit: 'A', letters: 'A' }, { unit: 'N', letters: 'N' }, { unit: 'O', letters: 'O' },
   ]},
-  { id: 24, word: 'NENE', image: '/images/words/nene.png', articulation: [
-    { unit: 'N', letters: 'N' }, { unit: 'E', letters: 'E' }, { unit: 'N', letters: 'N' }, { unit: 'E', letters: 'E' },
+  { id: 24, word: 'MONO', image: '/images/words/mono.png', articulation: [
+    { unit: 'M', letters: 'M' }, { unit: 'O', letters: 'O' }, { unit: 'N', letters: 'N' }, { unit: 'O', letters: 'O' },
   ]},
   { id: 25, word: 'NUBE', image: '/images/words/nube.png', articulation: [
     { unit: 'N', letters: 'N' }, { unit: 'U', letters: 'U' }, { unit: 'B/V', letters: 'B' }, { unit: 'E', letters: 'E' },
@@ -115,8 +117,9 @@ const WORDS = [
   { id: 26, word: 'NIÑO', image: '/images/words/nino.png', articulation: [
     { unit: 'N', letters: 'N' }, { unit: 'I', letters: 'I' }, { unit: 'Ñ', letters: 'Ñ' }, { unit: 'O', letters: 'O' },
   ]},
-  { id: 27, word: 'PIÑA', image: '/images/words/pina.png', articulation: [
-    { unit: 'P', letters: 'P' }, { unit: 'I', letters: 'I' }, { unit: 'Ñ', letters: 'Ñ' }, { unit: 'A', letters: 'A' },
+  { id: 27, word: 'PIJAMA', image: '/images/words/pijama.png', articulation: [
+    { unit: 'P', letters: 'P' }, { unit: 'I', letters: 'I' }, { unit: 'J', letters: 'J' },
+    { unit: 'A', letters: 'A' }, { unit: 'M', letters: 'M' }, { unit: 'A', letters: 'A' },
   ]},
   { id: 28, word: 'PATO', image: '/images/words/pato.png', articulation: [
     { unit: 'P', letters: 'P' }, { unit: 'A', letters: 'A' }, { unit: 'T', letters: 'T' }, { unit: 'O', letters: 'O' },
@@ -146,8 +149,8 @@ const WORDS = [
   { id: 36, word: 'UVA', image: '/images/words/uva.png', articulation: [
     { unit: 'U', letters: 'U' }, { unit: 'B/V', letters: 'V' }, { unit: 'A', letters: 'A' },
   ]},
-  { id: 37, word: 'UNO', image: '/images/words/uno.png', articulation: [
-    { unit: 'U', letters: 'U' }, { unit: 'N', letters: 'N' }, { unit: 'O', letters: 'O' },
+  { id: 37, word: 'OSO', image: '/images/words/oso.png', articulation: [
+    { unit: 'O', letters: 'O' }, { unit: 'S', letters: 'S' }, { unit: 'O', letters: 'O' },
   ]},
   { id: 38, word: 'XILÓFONO', image: '/images/words/xilofono.png', articulation: [
     { unit: 'X', letters: 'X' }, { unit: 'I', letters: 'I' }, { unit: 'L', letters: 'L' }, { unit: 'O', letters: 'Ó' },
